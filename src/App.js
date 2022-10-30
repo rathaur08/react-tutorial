@@ -7,12 +7,20 @@ const App = () => {
   const [myName, setMyName] = useState('Sunny Rathaur');
 
   const changeName= () => {
-    // if (condition) {
-      
+    let val = myName;
+
+    // React IF ELse condition -----------------------------
+    // if (val === 'Sunny Rathaur') {
+    //   setMyName('Sunny Rathaur CSE')
     // } else {
-      
+    //   setMyName('Sunny Rathaur')
     // }
-    setMyName('Sunny Rathaur CSE')
+
+    // If...Else (Ternary Operator)---------------------------
+    (val === 'Sunny Rathaur') ?
+      setMyName('Sunny Rathaur CSE'): setMyName('Sunny Rathaur');
+
+
   }
   console.log(myName);
 
