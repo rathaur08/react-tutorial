@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+  background-color: #282c34;
+  margin-block-start: 20%;
+  color: aliceblue;
+}
+
+button{
+  background-color: rgb(22, 234, 128);
+  width: 90px;
+  height: 30px;
+
+}
+button :hover{
+  background-size: 50%;
+  width: 88px;
+}
