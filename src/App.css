@@ -6,7 +6,7 @@ body{
 }
 
 button{
-  background-color: rgb(22, 234, 128);
+  background-color: rgb(5, 91, 30);
   width: 90px;
   height: 30px;
 
@@ -14,4 +14,13 @@ button{
 button :hover{
   background-size: 50%;
   width: 88px;
+}
+
+.h1style{
+  background-color: rgb(5, 91, 30);
+  width: 30%;
+  margin-left: 34%;
+  border-radius: 48px;
+  border: 2px solid;
+  
 }
