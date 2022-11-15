@@ -1,7 +1,8 @@
 import  React from 'react';
 import './App.css';
 import UseStateCondition from './components/UseStateCondition';
-import UseStateArrat from './components/UseStateArrat';
+// import UseStateArrat from './components/UseStateArrat';
+import UseStateObject from './components/UseStateObject';
 
 const App = () => {
   return (
@@ -10,7 +11,10 @@ const App = () => {
       {/* <UseStateCondition/> */}
 
       {/* React UseState Function + IF ELse condition */}
-      <UseStateArrat/>
+      {/* <UseStateArrat/> */}
+
+      {/* React UseState UPDATE Function */}
+      <UseStateObject/>
       
     </div>
   )
