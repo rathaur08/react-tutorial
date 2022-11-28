@@ -1,8 +1,9 @@
 import  React from 'react';
 import './App.css';
-import UseStateCondition from './components/UseStateCondition';
+// import UseStateCondition from './components/UseStateCondition';
 // import UseStateArrat from './components/UseStateArrat';
-import UseStateObject from './components/UseStateObject';
+// import UseStateObject from './components/UseStateObject';
+import UseStateRemoveArray from './components/UseStateRemoveArray';
 
 const App = () => {
   return (
@@ -14,7 +15,10 @@ const App = () => {
       {/* <UseStateArrat/> */}
 
       {/* React UseState UPDATE Function */}
-      <UseStateObject/>
+      {/* <UseStateObject/> */}
+
+      {/* React UseState Remove array Function */}
+      <UseStateRemoveArray/>
       
     </div>
   )
