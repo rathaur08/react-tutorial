@@ -3,7 +3,8 @@ import './App.css';
 // import UseStateCondition from './components/UseStateCondition';
 // import UseStateArrat from './components/UseStateArrat';
 // import UseStateObject from './components/UseStateObject';
-import UseStateRemoveArray from './components/UseStateRemoveArray';
+// import UseStateRemoveArray from './components/UseStateRemoveArray';
+import ShowCirEval from './components/ShowCirEval';
 
 const App = () => {
   return (
@@ -18,7 +19,10 @@ const App = () => {
       {/* <UseStateObject/> */}
 
       {/* React UseState Remove array Function */}
-      <UseStateRemoveArray/>
+      {/* <UseStateRemoveArray/> */}
+
+      {/* Short Circuit Evaluation with React | Logical && and || Operators */}
+      <ShowCirEval/>
       
     </div>
   )
