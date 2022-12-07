@@ -8,11 +8,19 @@ const BasicForm = () => {
   const submitForm = (e)=>{
     e.preventDefault();
 
-    // you can use Object Destructuring
-    const newEntry = {email: email, password: password};
+    if (email && password) {
+      // you can use Object Destructuring
+      const newEntry = {id: new Date().getTime().toString() , email, password };
 
-    setAllEntry([...allEntry, newEntry]);
-    console.log(allEntry);
+      setAllEntry([...allEntry, newEntry]);
+      console.log(allEntry);
+
+      setEmail("");
+      setPassword("");
+      
+    } else {
+        alert("Plz Fill the data")
+    }
   }
   
   return (
@@ -40,11 +48,12 @@ const BasicForm = () => {
         <div>
           {
             allEntry.map((curElem)=>{
+              const {id, email, password }= curElem;
               return(
 
-                <div className="dataStyles">
-                  <p>{curElem.email}</p>
-                  <p>{curElem.password}</p>
+                <div className="dataStyles" key={id}>
+                  <p>{email}</p>
+                  <p>{password}</p>
                 </div>
               )
             })
