@@ -4,7 +4,8 @@ import './App.css';
 // import UseStateArrat from './components/UseStateArrat';
 // import UseStateObject from './components/UseStateObject';
 // import UseStateRemoveArray from './components/UseStateRemoveArray';
-import ShowCirEval from './components/ShowCirEval';
+// import ShowCirEval from './components/ShowCirEval';
+import BasicForm from './components/Form/BasicForm';
 
 const App = () => {
   return (
@@ -22,7 +23,10 @@ const App = () => {
       {/* <UseStateRemoveArray/> */}
 
       {/* Short Circuit Evaluation with React | Logical && and || Operators */}
-      <ShowCirEval/>
+      {/* <ShowCirEval/> */}
+
+      {/* Create Login Form with React */}
+      <BasicForm/>
       
     </div>
   )
