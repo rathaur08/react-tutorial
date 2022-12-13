@@ -5,7 +5,8 @@ import './App.css';
 // import UseStateObject from './components/UseStateObject';
 // import UseStateRemoveArray from './components/UseStateRemoveArray';
 // import ShowCirEval from './components/ShowCirEval';
-import BasicForm from './components/Form/BasicForm';
+// import BasicForm from './components/Form/BasicForm';
+import UseEffects1 from './components/useEffect/UseEffects1';
 
 const App = () => {
   return (
@@ -26,7 +27,10 @@ const App = () => {
       {/* <ShowCirEval/> */}
 
       {/* Create Login Form with React */}
-      <BasicForm/>
+      {/* <BasicForm/> */}
+
+      {/* Add Use Effect functions */}
+      <UseEffects1/>
       
     </div>
   )
