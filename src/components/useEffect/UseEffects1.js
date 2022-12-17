@@ -5,7 +5,11 @@ const UseEffects1 = () => {
      const [count, setCount] = useState(0);
 
     useEffect(() => {
-       document.title = `Chats (${count +1 })`
+      if (count >= 1) {
+        document.title = `Chats (${count })`
+      } else {
+        document.title = `Chats `
+      }
     });
     console.log("Hello useEffect");
     

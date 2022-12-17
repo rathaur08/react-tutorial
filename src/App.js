@@ -29,7 +29,7 @@ const App = () => {
       {/* Create Login Form with React */}
       {/* <BasicForm/> */}
 
-      {/* Add Use Effect functions */}
+      {/* Add First UseEffect functions */}
       <UseEffects1/>
       
     </div>
