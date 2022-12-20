@@ -6,7 +6,8 @@ import './App.css';
 // import UseStateRemoveArray from './components/UseStateRemoveArray';
 // import ShowCirEval from './components/ShowCirEval';
 // import BasicForm from './components/Form/BasicForm';
-import UseEffects1 from './components/useEffect/UseEffects1';
+// import UseEffects1 from './components/useEffect/UseEffects1';
+import UseEffect2 from './components/useEffect/UseEffect2';
 
 const App = () => {
   return (
@@ -29,8 +30,11 @@ const App = () => {
       {/* Create Login Form with React */}
       {/* <BasicForm/> */}
 
-      {/* Add First UseEffect functions */}
-      <UseEffects1/>
+      {/* Add First UseEffect1 functions */}
+      {/* <UseEffects1/> */}
+
+      {/* React Hook useEffect CleanUp Functions */}
+      <UseEffect2/>
       
     </div>
   )
