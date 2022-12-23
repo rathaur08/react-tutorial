@@ -8,8 +8,8 @@ import './App.css';
 // import BasicForm from './components/Form/BasicForm';
 // import UseEffects1 from './components/useEffect/UseEffects1';
 // import UseEffect2 from './components/useEffect/UseEffect2';
-// import UseEffectAPI from './components/useEffect/UseEffectAPI';
-import Uncontrolled from './components/Form/Uncontrolled';
+import UseEffectAPI from './components/useEffect/UseEffectAPI';
+// import Uncontrolled from './components/Form/Uncontrolled';
 
 const App = () => {
   return (
@@ -39,11 +39,11 @@ const App = () => {
       {/* <UseEffect2/> */}
 
       {/* Github Users Data using useEffect Hook with Fetch API */}
-      {/* <UseEffectAPI/> */}
+      <UseEffectAPI/>
 
       {/* Ref & useRef Hooks | Controlled and Uncontrolled Form Components */}
-      <Uncontrolled/>
-      
+      {/* <Uncontrolled/> */}
+
     </div>
   )
 }
