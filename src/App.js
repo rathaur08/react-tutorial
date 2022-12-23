@@ -10,7 +10,8 @@ import './App.css';
 // import UseEffect2 from './components/useEffect/UseEffect2';
 // import UseEffectAPI from './components/useEffect/UseEffectAPI';
 // import Uncontrolled from './components/Form/Uncontrolled';
-import UseReducer from './components/UseReducer';
+// import UseReducer from './components/UseReducer';
+import DataJSONFile from './components/DataJSONFile';
 
 const App = () => {
   return (
@@ -46,7 +47,10 @@ const App = () => {
       {/* <Uncontrolled/> */}
 
       {/* Add First useReducer Hook in React & Count(+ , -) Function*/}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+
+      {/* Fetch Data from JSON File in React JS | React JSON */}
+      <DataJSONFile/>
 
     </div>
   )

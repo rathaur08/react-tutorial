@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "WebStylePress",
+        "content": "Content goes here...",
+        "tech": [
+            {
+                "name": "JavaScript"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "WSP",
+        "content": "Lorem ipsum dolor set amet...",
+        "tech": [
+            {
+                "name": "ReactJS"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Records",
+        "content": "Here is how we display records from json file in ReactJS"
+    }
+]
