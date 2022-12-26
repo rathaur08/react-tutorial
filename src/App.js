@@ -12,7 +12,9 @@ import './App.css';
 // import Uncontrolled from './components/Form/Uncontrolled';
 // import UseReducer from './components/UseReducer';
 // import DataJSONFile from './components/DataJSONFile';
-import ConA from './components/useContext/ConA';
+// import ConA from './components/useContext/ConA';
+import UseEffectsCustom from './components/useEffect/UseEffectCustom';
+import UseCustom from './components/useEffect/apiData/UseCustom';
 
 const App = () => {
   return (
@@ -54,7 +56,11 @@ const App = () => {
       {/* <DataJSONFile/> */}
 
       {/* What is Prop Drilling, Context API & useContext Hook in React */}
-      <ConA/>
+      {/* <ConA/> */}
+
+      {/* Add First Custom Hooks in React */}
+      <UseEffectsCustom/>
+      {/* <UseCustom/> */}
 
     </div>
   )
