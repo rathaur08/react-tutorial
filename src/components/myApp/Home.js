@@ -12,7 +12,7 @@ const Home = () => {
       <Routes>
         <Route path='/index' element={<Index />}/>
         <Route path='/about' element={<About />}/>
-        <Route path='/cards' element={<div><h1>cards Page</h1></div>}/>
+        <Route path='/contact' element={<div><h1> This is contact Page</h1></div>}/>
       </Routes>
       </BrowserRouter> 
     )
