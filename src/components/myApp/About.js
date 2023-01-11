@@ -3,7 +3,7 @@ import { useLocation, useHistory } from 'react-router-dom';
 
 const About = () => {
     const location = useLocation();
-    const history = useHistory();
+    // const history = useHistory();
 
     return (
         <div>
@@ -13,9 +13,9 @@ const About = () => {
                     <p>Hii, Sunny Good to see you again</p> : 
                     <p>Login to see your files</p>
             }
-            <button className="btn btn-primary"
+            {/* <button className="btn btn-primary"
             onClick={() => history.push('/index')}>
-                Home Page </button> 
+                Home Page </button>  */}
            
         </div>
     )

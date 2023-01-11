@@ -1,0 +1,7 @@
+.main-div{
+    width: 100vm;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    /* background-color: orange; */
+}

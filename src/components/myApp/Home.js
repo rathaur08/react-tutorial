@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Nav from "./Nav";
 import About from "./About";
 import Index from "./Index";
+import Login from './Login';
 
 
 const Home = () => {
@@ -12,6 +13,8 @@ const Home = () => {
       <Routes>
         <Route path='/index' element={<Index />}/>
         <Route path='/about' element={<About />}/>
+        <Route path='/login' element={<Login/>}/>
+        
         <Route path='/contact' element={<div><h1> This is contact Page</h1></div>}/>
       </Routes>
       </BrowserRouter> 
