@@ -13,8 +13,10 @@ import './App.css';
 // import UseReducer from './components/UseReducer';
 // import DataJSONFile from './components/DataJSONFile';
 // import ConA from './components/useContext/ConA';
-import UseEffectsCustom from './components/useEffect/UseEffectCustom';
-import UseCustom from './components/useEffect/apiData/UseCustom';
+// import UseEffectsCustom from './components/useEffect/UseEffectCustom';
+// import UseCustom from './components/useEffect/apiData/UseCustom';
+import Home from './components/myApp/Home';
+
 
 const App = () => {
   return (
@@ -59,8 +61,14 @@ const App = () => {
       {/* <ConA/> */}
 
       {/* Add First Custom Hooks in React */}
-      <UseEffectsCustom/>
+      {/* <UseEffectsCustom/> */}
       {/* <UseCustom/> */}
+
+      {/* Add First useLocation Hook in React | React-Router-Dom in React */}
+      <Home/>
+
+      {/* Add First useHistory Hook in React router Dom */}
+      {/* Add First React-Toastify | React Toast Notifications */}
 
     </div>
   )
